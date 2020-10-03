@@ -1,0 +1,8 @@
+{
+  "plugins": ["@babel/plugin-transform-runtime"],
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+// "@babel/core": "7.4.5", //trabaja en cambiar el formato js moderno a js que yo indique en .babelrc
+// "@babel/preset-env": "7.4.5", //esta sirve para .babelrc
+// "babel-loader": "8.0.6", //va a enteder los archivos .js y los va a pasar a babel/core

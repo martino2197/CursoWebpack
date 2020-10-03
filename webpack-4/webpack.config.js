@@ -3,7 +3,7 @@ const path = require("path"); /*este es un modulo de node y se encarga de la ges
 /*Para exportar un modulo, se debe hacer de la forma de commonJS*/
 module.exports = {
   entry: "./index.js" /*El archivo que queremos transpilar */,
-  mode: "development" /* modo de ejecución */,
+  //mode: "development" /* modo de ejecución */,
   output: {
     /*Configuraciones para el archivo final que generará webpack */
     path: path.resolve(
